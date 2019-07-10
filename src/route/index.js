@@ -1,17 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-function Home() {
-    return <h2>Home</h2>;
-  }
-  
-  function About() {
-    return <h2>About</h2>;
-  }
-  
-  function User() {
-    return <h2>User</h2>;
-  }
+import Home from '../pages/home'
+import About from '../pages/about'
+import User from '../pages/user'
 
 export default class Routes extends React.Component {
     render() {
