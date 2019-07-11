@@ -5,3 +5,7 @@ redux和router皆是组件。
 redux让全部组件可访问管理的状态，添加一个最顶层组件。
 router路由为根据url的路径匹配Route组件对应path的组件，ui内容以component props传入。
 
+### react css策略
+* CSS Modules
+* css components(css in js)
+
